@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>พอร์ทัลรายวิชา</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <img id="logo" class="logo" alt="" hidden>
+  <div><small id="code"></small><h1 id="name"></h1><p id="sub"></p></div>
+</div></header>
+<div class="wrap">
+  <div id="notice" class="notice" hidden></div>
+  <main>
+    <section id="now" class="now" aria-live="polite"><div class="state">กำลังโหลด…</div></section>
+    <ol id="weeks" class="list"></ol>
+  </main>
+  <footer id="foot"></footer>
+</div>
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
